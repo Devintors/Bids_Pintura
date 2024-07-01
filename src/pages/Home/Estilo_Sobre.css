@@ -1,0 +1,57 @@
+.Centralizacao_Sobre_Nos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sobre_Nos {
+  background-color: #13087c;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  margin-top: 150px;
+  height: 100%;
+}
+.Apresentacao {
+  width: 10 0%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  zoom: 2;
+  padding: 5px;
+}
+.Sobre_Nos > img {
+  width: 50%;
+  max-width: 520px;
+}
+@media screen and (max-width: 670px) {
+  .Apresentacao {
+    zoom: 1.5;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Apresentacao {
+    zoom: 1.2;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Apresentacao {
+    zoom: 1;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Apresentacao {
+    zoom: 0.8;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Apresentacao {
+    zoom: 0.6;
+  }
+}

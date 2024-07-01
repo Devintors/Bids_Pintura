@@ -1,0 +1,208 @@
+{
+  "Header": {
+    "Nome_Da_Empresa": "Bid's Pinturas",
+    "Imagem_De_Fundo": "./img/fundo.png",
+    "Apresentacao_Maior": "Venha conhecer meus Serviços",
+    "Apresentacao_Menor": "Faça sua pintura hoje mesmo, de uma olhada nas artes e faça seu orçamento",
+    "Texto_No_Botao": "Entrar em contato",
+    "Imagem_De_Forma_De_Fundo": "./img/ondas-inicio.png"
+  },
+  "Contato": {
+    "Numero_De_WhatsApp": "5515996204420"
+  },
+  "Meus_Trabalhos": {
+    "Imagem_De_Forma_De_Fundo": "./img/Retrato.png",
+    "Trabalhos": {
+      "Fileira": [
+        [
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          }
+        ],
+        [
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Nadaaaaaaaaaaaaa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Nadaaaaaaaaaaaaa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Nadaaaaaaaaaaaaa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          }
+        ],
+        [
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_1.jpg",
+            "Descricao": "Pintura roxa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_2.jpg",
+            "Descricao": "Pintura rosa"
+          },
+          {
+            "Local_Da_Imagem": "./img/Pinturas/Pintura_3.jpg",
+            "Descricao": "Pintura laranka"
+          }
+        ]
+      ]
+    },
+    "Imagem_Para_Animacao": "./img/Rolinho.png",
+    "Imagem_Para_Animacao_Invertida": "./img/Rolinho_Invertido.png"
+  },
+  "Rodape": [
+    {
+      "Imagem": "img/Rodape/Rodape.png",
+      "Redes_Sociais": [
+        {
+          "Icon": "fa-brands fa-whatsapp",
+          "Link": "https://wa.me/5515996204420",
+          "Cor_Do_Icone": "#00e604"
+        }
+      ]
+    }
+  ]
+}

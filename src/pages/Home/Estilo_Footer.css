@@ -1,0 +1,64 @@
+footer {
+    background-color: #13087c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 400px;
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer-container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.footer-container .contact-info, .footer-container .social-media {
+    margin-bottom: 20px;
+}
+
+.footer-container .contact-info p, .footer-container .social-media a {
+    margin: 5px 0;
+}
+
+.footer-container .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-container .social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-container .social-media i {
+    font-size: 20px;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+footer .ondas-final {
+    
+    width: 100%;
+    height: auto; 
+    max-width: 100%; 
+    margin-top: -130px;
+    
+}

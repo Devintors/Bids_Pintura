@@ -1,0 +1,262 @@
+@media screen and (max-width: 3000px) {
+  .rolagem-trabalhos {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    margin-top: 50px;
+  }
+
+  .rolagem-trabalhos img {
+    display: inline-block;
+  }
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 600px;
+  max-width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-content .btn {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #13087c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card-content .btn:hover {
+  background-color: #1906c2;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card-content {
+    width: 100%;
+  }
+}
+
+.rolagem-trabalhos {
+  display: flex;
+}
+
+.Pintura_Imagens_Individuais {
+  background-size: 100% 100%;
+  z-index: 999;
+  transition: background-size 300ms linear;
+  background-color: #f9f9f9;
+  background-repeat: no-repeat;
+}
+
+.Alterar_Visibilidade_Para_Maior {
+  z-index: 10 !important;
+}
+
+.Galeria_Sendo_Pintada_Esquerda_Direita {
+  background-size: 100% 100%;
+  background-position: left center;
+}
+
+.Galeria_Sendo_Pintada_Direita_Esquerda {
+  background-size: 100% 100%;
+  background-position: right center;
+}
+
+.img-rolinho {
+  height: 190px;
+  /* position: absolute; */
+  background-color: transparent;
+}
+
+.rolinho {
+  height: 100%;
+  background-color: transparent;
+}
+
+.Sombra_Rolinho,
+.Sombra_Rolinho_Tras,
+.Sombra_Rolinho_Avancado {
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  border-radius: 50px;
+  z-index: -1;
+  backdrop-filter: blur(4px);
+}
+
+.Sombra_Rolinho {
+  margin-left: -75px;
+}
+
+.Sombra_Rolinho_Avancado {
+  margin-left: -45px;
+  border-radius: 0px;
+  width: calc(100vw - 235px);
+  background-color: #f9f9f9;
+}
+
+.Sombra_Rolinho_Tras {
+  box-shadow: 20px 0px 20px 20px rgba(254, 254, 254, 0.248);
+}
+
+.Imagens_Retrato_Trabalho {
+  z-index: -2;
+}
+
+@keyframes Pintar_Frente {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(calc(100vw - 250px));
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes Pintar_Frente_Sumir {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+    width: calc(100vw - 235px);
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(calc(100vw - 250px));
+    opacity: 0;
+    width: 0px;
+    display: none;
+  }
+}
+
+@keyframes Pintar_Tras {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-88.3vw, 0);
+    display: none;
+    opacity: 0;
+  }
+}
+
+@keyframes Pintar_Tras_Sumir {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-88.3vw, 0);
+    display: none;
+    opacity: 0;
+  }
+}
+
+.Pintar_Frente {
+  animation: Pintar_Frente 5s forwards linear;
+}
+
+/* Estilos para o modal */
+.modal {
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-description {
+  flex: 1;
+  color: #1906c2;
+  background-color: #888;
+  padding: 10px;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.Div_Da_Div {
+  margin-top: -194px;
+}
